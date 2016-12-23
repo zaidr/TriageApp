@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/csc207-2013-09/group_0718/!svn/ver/123/PIII/TriageApp/res/layout
+END
+activity_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/csc207-2013-09/group_0718/!svn/ver/106/PIII/TriageApp/res/layout/activity_main.xml
+END
+activity_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/csc207-2013-09/group_0718/!svn/ver/106/PIII/TriageApp/res/layout/activity_menu.xml
+END
+activity_update_vitals.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/csc207-2013-09/group_0718/!svn/ver/123/PIII/TriageApp/res/layout/activity_update_vitals.xml
+END
+activity_update_patient.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/csc207-2013-09/group_0718/!svn/ver/106/PIII/TriageApp/res/layout/activity_update_patient.xml
+END
+activity_new_user.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/csc207-2013-09/group_0718/!svn/ver/109/PIII/TriageApp/res/layout/activity_new_user.xml
+END
+activity_phys_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/csc207-2013-09/group_0718/!svn/ver/118/PIII/TriageApp/res/layout/activity_phys_menu.xml
+END
+activity_login.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/csc207-2013-09/group_0718/!svn/ver/106/PIII/TriageApp/res/layout/activity_login.xml
+END
+activity_add_prescription.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/csc207-2013-09/group_0718/!svn/ver/118/PIII/TriageApp/res/layout/activity_add_prescription.xml
+END
+activity_lookup.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/csc207-2013-09/group_0718/!svn/ver/106/PIII/TriageApp/res/layout/activity_lookup.xml
+END
+activity_arrival_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/csc207-2013-09/group_0718/!svn/ver/121/PIII/TriageApp/res/layout/activity_arrival_list.xml
+END
+activity_add_patient.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/csc207-2013-09/group_0718/!svn/ver/106/PIII/TriageApp/res/layout/activity_add_patient.xml
+END
+activity_priority_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/csc207-2013-09/group_0718/!svn/ver/121/PIII/TriageApp/res/layout/activity_priority_list.xml
+END

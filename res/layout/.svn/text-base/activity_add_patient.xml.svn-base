@@ -1,0 +1,169 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AddPatientActivity" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/HCNText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:ems="10"
+                android:singleLine="true"
+                android:hint="@string/HCN"
+                android:visibility="visible"
+                android:inputType="number" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/firstNameEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/HCNText"
+                android:layout_below="@+id/HCNText"
+                android:ems="10"
+                android:singleLine="true"
+                android:hint="@string/first_name"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/lastNameEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/firstNameEdit"
+                android:layout_below="@+id/firstNameEdit"
+                android:ems="10"
+                android:singleLine="true"
+                android:hint="@string/last_name" />
+
+            <TextView
+                android:id="@+id/DOBtextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/lastNameEdit"
+                android:layout_below="@+id/lastNameEdit"
+                android:text="@string/DOB"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <DatePicker
+                android:id="@+id/DOBDatePicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/DOBtextView"
+                android:layout_below="@+id/DOBtextView"
+                android:calendarViewShown="false" />
+
+            <EditText
+                android:id="@+id/sysBPEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/DOBDatePicker"
+                android:layout_below="@+id/DOBDatePicker"
+                android:ems="10"
+                android:singleLine="true"
+                android:hint="@string/Systolic"
+                android:inputType="number" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/diBPEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/sysBPEdit"
+                android:layout_below="@+id/sysBPEdit"
+                android:ems="10"
+                android:singleLine="true"
+                android:hint="@string/Diastolic"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/tempEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/diBPEdit"
+                android:layout_below="@+id/diBPEdit"
+                android:ems="10"
+                android:singleLine="true"
+                android:hint="@string/Temp"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/heartRateEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tempEdit"
+                android:layout_below="@+id/tempEdit"
+                android:ems="10"
+                android:singleLine="true"
+                android:hint="@string/Heart"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/symptomsEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/heartRateEdit"
+                android:layout_below="@+id/heartRateEdit"
+                android:ems="10"
+                android:singleLine="true"
+                android:hint="@string/symptoms" />
+
+            <TextView
+                android:id="@+id/arriveText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/symptomsEdit"
+                android:layout_below="@+id/symptomsEdit"
+                android:text="@string/Arrival"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TimePicker
+                android:id="@+id/arrivalTimePicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/arriveText"
+                android:layout_below="@+id/arriveText" />
+
+            <TextView
+                android:id="@+id/arrivalDateTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/arrivalTimePicker"
+                android:layout_below="@+id/arrivalTimePicker"
+                android:text="@string/arrivalDate"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+            <DatePicker
+                android:id="@+id/arrivalDatePicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/arrivalDateTextView"
+                android:layout_below="@+id/arrivalDateTextView"
+                android:calendarViewShown="false" />
+
+            <Button
+                android:id="@+id/enterPatientButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/arrivalDatePicker"
+                android:text="@string/add_patient"
+                android:onClick="addPatient" />
+            
+        </RelativeLayout>
+
+</ScrollView>
